@@ -1,80 +1,90 @@
-* {
-    margin: 0;
-    padding: 0;
-    font-size: 62.5%;
-    font-family: Arial, Helvetica, sans-serif;
+body {
     
+    font-family:Arial, Helvetica, sans-serif
 }
-
-header {
-    display: flex;
-    justify-content: space-between;
-    margin: 20px 35px;
-    font-size: 3rem;
-}
-
-.view-scores {
-    color: #d100d1;
-}
-
-.container {
-
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 50%;
-    margin: 0 auto;
-}
-
-.content {
-
-    margin-top: 150px;
-    font-size: 6rem;
-}
-
-.info {
-
-    margin-top: 20px;
-    font-size: 2.3rem;
+  .wrapper {
+    margin: 100px auto 0 auto;
+    max-width: 600px;
+    font-size: 25px;
+   
+  }
+  
+  .hide {
+    display: none;
+  }
+  
+  .start {
     text-align: center;
-
-}
-
-.start-quiz {
-
-    margin-top: 20px;
-    background: #560bad;
-    color: #ffffff;
-    font-size: 3rem;
-    cursor: pointer;
-    padding: 5px 10px;
-    border-radius: 8px;
-}
-
-.start-quiz:hover,
-#answers button:hover {
-
-    background: #d100d1;
-}
-
-#questions{
-
-
-}
-
-
-#answers button {
-
-
-}
-
-
-.answer {
-
-    width: 100%;
-    font-size: 8rem;
+  }
+  
+  .scores {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+  }
+  
+  .feedback {
     font-style: italic;
-    color: #6c757d;
-
-}
+    font-size: 120%;
+    margin-top: 20px;
+    padding-top: 10px;
+    color:#d100d1;
+    border-top: 2px solid rgb(201, 193, 193);
+  }
+  
+  .timer {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+  }
+  
+  a {
+    color: black;
+    text-decoration: none;
+    transition: color 0.1s;
+  }
+  
+  a:hover {
+    color: black;
+  }
+  
+  button {
+    display: inline-block;
+    margin: 5px;
+    cursor: pointer;
+    font-family: "Architects Daughter", cursive;
+    font-size: 100%;
+    background-color: #d100d1;
+    border-radius: 5px;
+    padding: 2px 10px;
+    color: white;
+    border: 0;
+    transition: background-color 0.1s;
+  }
+  
+  button:hover {
+    background-color: black;
+  }
+  
+  .choices button {
+    display: block;
+  }
+  
+  input[type="text"] {
+    font-size: 100%;
+  }
+  
+  ol {
+    padding-left: 0px;
+    max-height: 400px;
+    overflow: auto;
+  }
+  
+  li {
+    padding: 5px;
+    list-style: decimal inside none;
+  }
+  
+  li:nth-child(odd) {
+    background-color: #dfdae7;
+  }
