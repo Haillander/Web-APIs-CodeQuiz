@@ -35,3 +35,9 @@ https://github.com/Haillander/Web-APIs-CodeQuiz
 * Images
 
 ![The Horiseon webpage includes a navigation bar, a header image, and cards with text and images at the bottom of the page.](./assets/Images/FRONT%20QUIZ%20.gif)
+
+![The Horiseon webpage includes a navigation bar, a header image, and cards with text and images at the bottom of the page.](./assets/Images/QUESTIONS%20.gif)
+
+![The Horiseon webpage includes a navigation bar, a header image, and cards with text and images at the bottom of the page.](./assets/Images/ALL%20DONE%20SECTION.gif)
+
+![The Horiseon webpage includes a navigation bar, a header image, and cards with text and images at the bottom of the page.](./assets/Images/HIGHSCORE.gif)
